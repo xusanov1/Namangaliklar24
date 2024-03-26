@@ -14,7 +14,7 @@
 
   <!-- -------- header start---------- -->
 
-  <header class="fixed top-0 bg-[#F6F6F9] w-full pb-10 pt-5">
+  <header class="fixed top-0 bg-[#F6F6F9] w-full pb-10 pt-5 z-50">
     <div class="container mx-auto px-20">
       <nav class="flex justify-between items-center h-[80px] pb-10">
         <img src="../../assets/icons/NAMANGANLIKLAR24@2x-1.svg" alt="header image">
@@ -87,8 +87,90 @@
   <!-- -------- header end ---------- -->
 
   <main class="pt-[400px]">
-    <h1> yozish mumkin</h1>
-  </main>
+    <section id="form">
+        <div class="container mx-auto px-20 pb-10">
+            <h1 class="leading-[28.44px] text-black text-[24px] font-medium">Напишите нам</h1>
+            <div class="flex justify-between gap-x-[90px]">
+                <div class="form">
+                    <form action="https://echo.htmlacademy.ru/" target="_blank">
+                        <input type="text" name="Name" placeholder="Имя"
+                            class="block mt-3 w-[600px] py-[15px] px-4 placeholder:text-[#888888] placeholder:opacity-30 border-[2px] border-opacity-30 text-black outline-none border-[#285193] rounded-[5px]">
+
+                        <input type="email" name="E-mail" placeholder="Электронная почта"
+                            class="block mt-5  w-[600px] py-[15px] px-4 placeholder:text-[#888888] placeholder:opacity-30 border-[2px] border-opacity-30 text-black outline-none border-[#285193] rounded-[5px]">
+
+                        <input type="number" name="Number" placeholder="Номер телефона"
+                            class="block mt-5  w-[600px] py-[15px] px-4 placeholder:text-[#888888] placeholder:opacity-30 text-black border-[2px] border-opacity-30 outline-none border-[#285193] rounded-[5px]">
+
+                        <input type="text" name="Text" placeholder="Тема"
+                            class="block mt-5  w-[600px] py-[15px] px-4 placeholder:text-[#888888] placeholder:opacity-30 border-[2px] border-opacity-30 text-black outline-none border-[#285193] rounded-[5px]">
+
+                        <textarea name="text" cols="30" rows="10" placeholder="Текст"
+                            class="mt-5 resize-none w-[600px] outline-none py-[15px] px-4 placeholder:text-[#888888] placeholder:opacity-30 text-black border-[2px] border-opacity-30 border-[#285193]  rounded-[5px]"></textarea>
+
+                        <div
+                            class="mt-5 flex items-center border-[2px] border-opacity-30 border-[#285193] text-black gap-2 py-[15px] px-4 w-[221px] cursor-pointer">
+                            Прикрепить файл <img src="../../assets/icons/form_prikrepit.svg" alt="icon"></div>
+
+                        <div class="flex items-center gap-5">
+                            <input type="text" name="Text" placeholder="Код"
+                            class="block mt-5 w-[221px] py-[15px] px-4 placeholder:text-[#888888] placeholder:opacity-30 border-[2px] border-opacity-30 text-black outline-none border-[#285193] rounded-[5px]">
+
+                            <span class="mt-4">4 k 7 Z a</span>
+                        </div>
+
+                        <button type="submit"
+                            class="mt-5 bg-[#295093] rounded-[5px] border-[2px] py-[15px] px-4 w-[221px]">Отправить</button>
+                    </form>
+                </div>
+                <div>
+                    <div
+                        class="card border-[2px] border-[#BCC3CD] rounded-[5px] w-[520px] pl-[25px] pr-5 py-[23px] mt-3">
+                        <h2 class="text-[#295091] leading-[33px] text-[28px] font-bold text-end">
+                            NAMANGANLIKLAR24</h2>
+
+                        <div class="flex justify-between items-center mt-[10px]">
+                            <p class="text-[#888888] leading-[21px] text-[18px] font-normal">Электронная почта</p>
+                            <p class="text-[#888888] leading-[21px] text-[18px] font-normal">
+                                info@namanganliklar24.uz</p>
+                        </div>
+
+                        <div class="flex justify-between items-center mt-[10px]">
+                            <p class="text-[#888888] leading-[21px] text-[18px] font-normal">Социальные сети</p>
+
+                            <div class="flex gap-[13px] items-center">
+                                <img src="../../assets/icons/form_facebook.svg"
+                                    class="cursor-pointer hover:scale-[1.1] duration-200" alt="logo">
+                                <img src="../../assets/icons/form_twitter.svg"
+                                    class="cursor-pointer hover:scale-[1.1] duration-200" alt="logo">
+                                <img src="../../assets/icons/form_odnoklasnik.svg"
+                                    class="cursor-pointer hover:scale-[1.1] duration-200" alt="logo">
+                            </div>
+                        </div>
+
+                        <div class="flex justify-between items-center mt-[10px]">
+                            <p class="text-[#888888] leading-[21px] text-[18px] font-normal">Телеграм канал</p>
+
+                            <button
+                                class="bg-[#295091] rounded-[5px] text-white flex px-[10px] py-[6px] gap-[6px] cursor-pointer hover:scale-[1.1] duration-200"><img
+                                    src="../../assets/icons/form_telegram.svg" alt="logo">Подписатся</button>
+                        </div>
+
+                        <div class="flex gap-4 items-center mt-[10px]">
+                            <p class="text-[#888888] leading-[21px] text-[18px] font-normal w-[212px]">Мобильная
+                                приложение</p>
+                            <img src="../../assets/icons/form_googlePlay.svg"
+                                class="cursor-pointer hover:scale-[1.1] duration-200" alt="icon">
+                            <img src="../../assets/icons/form_appleStore.svg"
+                                class="cursor-pointer hover:scale-[1.1] duration-200" alt="icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</main>
 
 
   <!-- -------- footer start ---------- -->
